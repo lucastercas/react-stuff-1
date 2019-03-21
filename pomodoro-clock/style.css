@@ -1,0 +1,30 @@
+body {
+  background-color: #1d2021;
+  color: #ebdbb2;
+  text-align: center;
+}
+
+main {
+  display: block
+  height: 100vh;
+  position: relative;
+}
+
+button {
+  cursor: pointer;
+}
+
+.length-control {
+  display: inline-block;
+  width: 250px;
+}
+
+#clock {
+  border: 5px solid #d65d03;
+  margin: 20px auto 10px auto;
+  border-radius: 10px;
+  position: relative;
+  width: 600px;
+}
+
+

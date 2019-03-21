@@ -1,0 +1,60 @@
+body {
+  background-color: #ebdbb2;
+}
+
+main {
+}
+
+.toolbar {
+  background-color: #4aa3a3;
+  width: 100%;
+  border-bottom: 1px solid;
+  font-size: 1em;
+  font-weight: 10;
+  text-align: center;
+}
+
+#editor-wrap {
+  border: 2px solid;
+  width: 550px;
+  margin: 18px auto;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+
+#editor {
+  background-color: #4aa3a3;
+  border-top: 1px solid;
+  width: 99%;
+  resize: vertical;
+  margin-bottom: -5px;
+}
+
+#preview-wrap {
+  border: 2px solid;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+
+#preview {
+  width: 100%;
+  background-color: #4aa3a3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid;
+}
+
+pre {
+  background-color: #224b4b;
+  width: 90%;
+  margin-left: 5%;
+}
+
+code {
+  background-color: #224b4b;
+  font-weight: bold;
+}
+
+blockquote {
+  border-left: 2px solid;
+  padding-left: 5px;
+  color: #224b4b;
+}
